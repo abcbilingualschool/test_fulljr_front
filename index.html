@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestor de Tareas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Gestor de Tareas</h1>
+    <p class="hint">
+      Este frontend ya está listo y no debe modificarse. Conecta tu backend en
+      <code id="api-url"></code> para que funcione end-to-end.
+    </p>
+
+    <form id="task-form">
+      <input id="task-input" type="text" placeholder="Nueva tarea..." autocomplete="off" required />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <p id="status" role="status"></p>
+
+    <ul id="task-list"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
